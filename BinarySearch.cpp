@@ -37,7 +37,7 @@ int main() {
     // use proper naming for others to understand
     
     int sizeOfArray = sizeof(array) / sizeof(array[0]);
-    int result = binarySearch(array, x, 0, sizeOfArray - 1);
+    int result = binarySearch(array, searchedNumber, 0, sizeOfArray - 1);
     
     
     if (result == -1)
